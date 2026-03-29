@@ -1,0 +1,99 @@
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--variable-collection-color-yellow);
+}
+
+.card {
+  width: 384px;
+  height: 522px;
+  padding: 24px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border: 1px solid var(--variable-collection-color-gray-950);
+  box-shadow: 8px 8px 0px #000000;
+  background-color: var(--variable-collection-color-white);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card .card__image {
+  border-radius: 10px;
+}
+
+.author .userpic {
+  width: 32px;
+  height: 32px;
+}
+
+.content .text-wrapper {
+  font-family: var(--text-preset-3-bold-font-family);
+  font-weight: var(--text-preset-3-bold-font-weight);
+  color: var(--variable-collection-color-gray-950);
+  font-size: var(--text-preset-3-bold-font-size);
+  letter-spacing: var(--text-preset-3-bold-letter-spacing);
+  line-height: var(--text-preset-3-bold-line-height);
+  font-style: var(--text-preset-3-bold-font-style);
+}
+
+.content .category {
+  padding: var(--variable-collection-spacing-50)
+    var(--variable-collection-spacing-150);
+  background-color: var(--variable-collection-color-yellow);
+  border-radius: 4px;
+}
+
+.content .publish-date {
+  font-family: var(--text-preset-3-font-family);
+  font-weight: var(--text-preset-3-font-weight);
+  color: var(--variable-collection-color-gray-950);
+  font-size: var(--text-preset-3-font-size);
+  letter-spacing: var(--text-preset-3-letter-spacing);
+  line-height: var(--text-preset-3-line-height);
+  white-space: nowrap;
+  font-style: var(--text-preset-3-font-style);
+}
+
+.content .title {
+  font-family: var(--text-preset-1-font-family);
+  font-weight: var(--text-preset-1-font-weight);
+  color: var(--variable-collection-color-gray-950);
+  font-size: var(--text-preset-1-font-size);
+  letter-spacing: var(--text-preset-1-letter-spacing);
+  line-height: var(--text-preset-1-line-height);
+  font-style: var(--text-preset-1-font-style);
+}
+
+.content .description {
+  font-family: var(--text-preset-2-font-family);
+  font-weight: var(--text-preset-2-font-weight);
+  color: var(--variable-collection-color-gray-500);
+  font-size: var(--text-preset-2-font-size);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+  line-height: var(--text-preset-2-line-height);
+  font-style: var(--text-preset-2-font-style);
+}
