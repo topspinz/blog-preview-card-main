@@ -96,7 +96,7 @@ a {
   font-style: var(--text-preset-1-font-style);
 }
 
-.content a:hover .title {
+.content a:focus .title {
   color: var(--variable-collection-color-yellow);
 }
 
