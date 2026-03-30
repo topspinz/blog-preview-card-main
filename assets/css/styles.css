@@ -8,7 +8,6 @@ h2 {
 
 main {
   min-height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +18,6 @@ main {
   width: 90%;
   max-width: 384px;
   height: auto;
-  min-height: 522px;
   padding: 24px;
   border-radius: 20px;
   display: flex;
@@ -27,7 +25,7 @@ main {
   align-items: flex-start;
   gap: 24px;
   border: 1px solid var(--variable-collection-color-gray-950);
-  box-shadow: 8px 8px 0px #000000;
+  box-shadow: var(--box-shaodow-1);
   background-color: var(--variable-collection-color-white);
   transform: translate(-4px, -4px);
 }
@@ -105,7 +103,8 @@ a {
   font-style: var(--text-preset-1-font-style);
 }
 
-.content a:focus .title {
+a:hover .title,
+a:focus .title {
   color: var(--variable-collection-color-yellow);
 }
 
