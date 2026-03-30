@@ -6,8 +6,9 @@ h2 {
   margin: 0;
 }
 
-body {
+main {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +16,10 @@ body {
 }
 
 .card {
-  width: 384px;
-  height: 522px;
+  width: 90%;
+  max-width: 384px;
+  height: auto;
+  min-height: 522px;
   padding: 24px;
   border-radius: 20px;
   display: flex;
@@ -26,6 +29,12 @@ body {
   border: 1px solid var(--variable-collection-color-gray-950);
   box-shadow: 8px 8px 0px #000000;
   background-color: var(--variable-collection-color-white);
+  transform: translate(-4px, -4px);
+}
+
+.card .card__image {
+  width: 100%;
+  height: auto;
 }
 
 .content {
