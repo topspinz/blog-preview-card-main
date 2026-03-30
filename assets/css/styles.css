@@ -45,9 +45,17 @@ body {
   border-radius: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .author .userpic {
   width: 32px;
   height: 32px;
+}
+
+.author .authorname {
+  font-weight: var(--text-preset-3-bold-font-weight);
 }
 
 .content .text-wrapper {
@@ -86,6 +94,10 @@ body {
   letter-spacing: var(--text-preset-1-letter-spacing);
   line-height: var(--text-preset-1-line-height);
   font-style: var(--text-preset-1-font-style);
+}
+
+.content a:hover .title {
+  color: var(--variable-collection-color-yellow);
 }
 
 .content .description {
